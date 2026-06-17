@@ -52,6 +52,32 @@ Customer Churn Prediction System is a Machine Learning project designed to predi
 The project utilizes the Telco Customer Churn Dataset containing customer demographic information, subscription details, account information, and service usage patterns.
 
 ---
+## Project Results
+
+| Model                    | Accuracy |
+| ------------------------ | -------- |
+| Logistic Regression      | 78.75%   |
+| Random Forest Classifier | 79.25%   |
+
+The Random Forest model achieved the best performance and was selected as the final model for churn prediction.
+
+---
+
+## Feature Importance Analysis
+
+The model identified the following factors as the most influential predictors of customer churn:
+
+* Total Charges
+* Monthly Charges
+* Tenure
+* Contract Type
+* Payment Method
+
+These insights can help businesses understand customer behavior and improve retention strategies.
+
+![Feature Importance](feature_importance.png)
+
+---
 
 ## Key Outcomes
 
