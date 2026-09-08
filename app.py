@@ -23,10 +23,10 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DATA_PATH = (
-    BASE_DIR
-    / "data"
-    / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+DATA_URL = (
+    "https://raw.githubusercontent.com/"
+    "treselle-systems/customer_churn_analysis/"
+    "master/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 )
 
 MODEL_PATH = (
@@ -39,7 +39,7 @@ MODEL_PATH = (
 @st.cache_data
 def load_data():
 
-    data = pd.read_csv(DATA_PATH)
+    data = pd.read_csv(DATA_URL)
 
     data["TotalCharges"] = pd.to_numeric(
         data["TotalCharges"],
