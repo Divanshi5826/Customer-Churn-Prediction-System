@@ -5,7 +5,7 @@ An end-to-end customer churn analytics and prediction system built using Python,
 ## 🚀 Live Demo
 
 **Streamlit Dashboard:**
-[PASTE YOUR DEPLOYED STREAMLIT LINK HERE]
+https://customer-churn-prediction-system-nrfwkqrd4apypenqh7qnb6.streamlit.app/
 
 ## 📌 Overview
 
